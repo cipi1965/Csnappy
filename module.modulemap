@@ -1,0 +1,11 @@
+module Csnappymac [system] {
+  header "/usr/local/include/snappy-c.h"
+  link "snappy"
+  export *
+}
+
+module Csnappylinux [system] {
+  header "/usr/include/snappy-c.h"
+  link "snappy"
+  export *
+}
